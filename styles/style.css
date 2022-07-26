@@ -6,3 +6,98 @@ Green: #00B172
 White: #FFF
 
 */
+
+.spotify-logo {
+    padding: 20px;
+    width:150px;
+
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar {
+ display: flex;
+ flex-flow: nowrap;
+ justify-content: flex-end;
+
+ margin: 0;
+ min-width: 725px;
+ padding-top: 10px;
+ width: 100%;
+ position: fixed; 
+ flex-direction: row; 
+}
+
+.navbar a {
+ text-decoration: none;
+ display:block;
+ padding: 1em ;
+ color: black;
+ display:flex;
+ flex-direction: row;
+
+}
+
+.landing {
+ margin: 0;
+ background-size: cover;
+ width: 100%;
+
+}
+
+
+
+.music-for-everyone {
+    Position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    color: white ;
+    margin: auto;
+    text-align: center;
+  
+
+    
+}
+
+.landing-content {
+    Position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white ;
+    margin: auto;
+    text-align: center;
+
+}
+
+whats-on-spotify-box {
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+.what {
+    text-align:center;
+    font-size: 2em;
+}
+
+div.what {
+
+}
+html {
+    font-family:sans-serif
+}
+
+h3 {
+    font-size: 1em;
+}
+
