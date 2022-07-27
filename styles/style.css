@@ -79,18 +79,14 @@ header {
 
 }
 
-whats-on-spotify-box {
-    display:flex;
-    justify-content:space-evenly;
-    flex-direction: row;
-}
 
 .what {
     text-align:center;
     font-size: 2em;
 }
 
-div.what {
+h3.what {
+    color:#00B172;
 
 }
 html {
@@ -99,5 +95,18 @@ html {
 
 h3 {
     font-size: 1em;
+}
+
+.line {
+    width: 30%;
+    background-color: #00B172 ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 3px;
+
+}
+
+.conatainer-1 {
+    display: flex;
 }
 
