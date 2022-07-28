@@ -25,17 +25,23 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
+    padding: 20px;
 }
 
-.navbar {
+#navbar {
 width: 30%;
 }
 
-.navbar a {
+#navbar li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#navbar a {
  text-decoration: none;
  color: black;
-
-
+ font-size: 18px;;
 }
 
 .landing {
@@ -77,6 +83,7 @@ width: 30%;
 .what {
     text-align:center;
     font-size: 2em;
+    border-bottom:#00B172;
 }
 
 html {
@@ -104,7 +111,13 @@ h3 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.internal-div {
+    text-align: center;
 }
 
 .external-div img {
@@ -115,8 +128,9 @@ h1 {
     font-size: 2em;;
 }
 
-#advantages h1 {
+#advantages h2 {
     
     align-items: center;
+    color:#00B172;
 
 }
