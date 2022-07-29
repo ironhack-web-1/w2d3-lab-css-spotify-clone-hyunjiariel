@@ -80,10 +80,13 @@ width: 30%;
 }
 
 
-.what {
+#advantages h1 {
     text-align:center;
-    font-size: 2em;
-    border-bottom:#00B172;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-color:#00B172;
+    
 }
 
 html {
@@ -133,4 +136,20 @@ h1 {
     align-items: center;
     color:#00B172;
 
+}
+
+#green-section h1 {
+    
+    border-bottom-color:#FFF;
+}
+
+#green-section .external-div {
+    background-color: #00B172;
+}
+
+.white-spotify {
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
